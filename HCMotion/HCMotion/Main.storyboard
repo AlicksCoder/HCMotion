@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IBT-4r-Eqy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ayN-PC-5It">
+            <objects>
+                <viewController id="IBT-4r-Eqy" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f5o-Ox-8QH"/>
+                        <viewControllerLayoutGuide type="bottom" id="cwh-fD-Kbu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jcn-nY-i2T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="frist" translatesAutoresizingMaskIntoConstraints="NO" id="BUr-H8-1ge">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BUr-H8-1ge" secondAttribute="trailing" id="10R-aS-80Y"/>
+                            <constraint firstItem="BUr-H8-1ge" firstAttribute="top" secondItem="Jcn-nY-i2T" secondAttribute="topMargin" id="3qJ-W8-zFN"/>
+                            <constraint firstItem="cwh-fD-Kbu" firstAttribute="top" secondItem="BUr-H8-1ge" secondAttribute="bottom" id="QFj-Xy-kSr"/>
+                            <constraint firstItem="BUr-H8-1ge" firstAttribute="leading" secondItem="Jcn-nY-i2T" secondAttribute="leadingMargin" id="Yaa-xX-CMC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageview" destination="BUr-H8-1ge" id="YX6-cb-dzK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hk5-eK-KUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="213"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frist" width="750" height="1334"/>
+    </resources>
+</document>
